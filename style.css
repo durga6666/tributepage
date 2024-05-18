@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+  padding: 20px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top_section h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-transform: uppercase;
+}
+
+.top_section h4 {
+  font-size: 30px;
+  text-align: end;
+  color: #555;
+}
+
+.image_container {
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image_container img {
+  width: 300px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.about_section {
+  margin-top: 50px;
+  background: #e5e5fd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about_section h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #1d1e4c;
+}
+
+.about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+}
+
+.biography_section {
+  margin: 50px 0;
+  padding: 20px;
+  background: #e5e5fd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biography_section h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #1d1e4c;
+}
+
+.biography_section ul {
+  margin-left: 20px;
+}
+
+.biography_section li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.biography_section li:hover {
+  color: #1d1e4c;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+footer p {
+  text-align: end;
+  font-size: 18px;
+}
+
+footer a {
+  color: #1d1e4c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.3s;
+}
